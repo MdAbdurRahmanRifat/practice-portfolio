@@ -1,0 +1,107 @@
+:root {
+    --Primary-color: #5E3BEE;
+    --hover-color: #7c61eb;
+    --secondary-color: #F5FCFF;
+    --heading-color: #282938;
+    --font-color: #1C1E53;
+    --frist-font: 74.667px;
+    --second-font: 24px;
+    --third-font: 21.333px;
+    --fourth-font: 32px;
+    --fifth-font: 64px;
+    --Primary-font-wight: 700;
+    --secondary-font-wight: 500;
+    --third-font-wight: 400;
+
+
+}
+
+.btn-primary{
+    padding: .5rem 1.125rem;
+    text-align: center;
+    border-radius: .3333rem;
+    font-size: var(--third-font);
+    font-weight: var(--third-font-wight);
+    color: var(--secondary-color);
+    background-color: var(--Primary-color);
+    cursor: pointer;
+    border: none;
+    transition: all .5s;
+
+}
+
+.btn-primary:hover {
+    background-color: var(--hover-color);
+}
+
+.secondary-btn {
+    padding: .5rem 1.125rem;
+    text-align: center;
+    border-radius: .3333rem;
+    font-size: var(--third-font);
+    font-weight: var(--third-font-wight);
+    color: var(--Primary-color);
+    cursor: pointer;
+    border: 2px solid var(--Primary-color);
+    transition: all .5s ease-in;
+}
+
+.secondary-btn:hover {
+    color: var(--secondary-color);
+    background-color: var(--hover-color);
+}
+
+
+h1 {
+    font-size: var(--frist-font);
+    font-weight: var(--Primary-font-wight);
+    line-height: 120%
+}
+
+h2 {
+    font-size: var(--fourth-font);
+    font-weight: var(--Primary-font-wight);
+    color: var(--heading-color);
+}
+
+h3 {
+    font-size: var(--second-font);
+    font-weight: var(--third-font-wight);
+    line-height: 150%;
+    color: var(--font-color);
+}
+
+h4,
+p {
+    font-size: var(--third-font);
+    font-weight: var(--third-font-wight);
+    color: var(--font-color);
+}
+
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.column{
+    flex-direction: column;
+}
+.start{
+    align-items: start;
+}
+.flex-one{
+    flex: 1;
+}
+
+.container{
+    max-width: 90rem;
+    margin: 0 auto;
+
+  }
